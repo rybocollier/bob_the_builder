@@ -14,11 +14,11 @@
     
         },
         "Resources": {
-            "tests3bucket01": {
+            "tests3bucket06": {
                 "Type": "AWS::S3::Bucket",
                 "Properties": {
                     "AccessControl": "Private",
-                    "BucketName": "tests3bucket01",
+                    "BucketName": "tests3bucket06"
                 }
             }
         },
