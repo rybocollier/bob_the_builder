@@ -1,0 +1,28 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+        "Description": "",
+        "Metadata": {
+    
+        },
+        "Parameters": {
+        
+        },
+        "Mappings": {
+    
+        },
+        "Conditions": {
+    
+        },
+        "Resources": {
+            "tests3bucket01": {
+                "Type": "AWS::S3::Bucket",
+                "Properties": {
+                    "AccessControl": "Private",
+                    "BucketName": "tests3bucket01",
+                }
+            }
+        },
+        "Outputs": {
+    
+        }
+}
